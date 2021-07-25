@@ -1,5 +1,6 @@
 import Inputbox from "./Inputbox";
 import Stories from "./Stories";
+import Posts from './Posts';
 
 const Feed = () => {
     return (
@@ -9,6 +10,8 @@ const Feed = () => {
 
                 <Inputbox/>
                 
+                <Posts/>
+
             </div>
         </div>
     )
