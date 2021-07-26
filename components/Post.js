@@ -22,9 +22,7 @@ export const Post = ({ name, message, email, postImage, image, timestamp }) => {
           </div>
         </div>
 
-        {/* */}
-
-        <p className="pt-4 font-medium">{message}</p>
+        <p className="pt-4">{message}</p>
       </div>
 
       {postImage && (
